@@ -10,25 +10,11 @@
 ---
 
 <!-- Badges -->
-<a href="https://github.com/anshverma1975/web-quark/stargazers">
-  <img src="https://img.shields.io/github/stars/anshverma1975/web-quark?style=for-the-badge&color=facc15&logo=github&logoColor=white" alt="Stars"/>
-</a>
-<a href="https://github.com/anshverma1975/web-quark/network/members">
-  <img src="https://img.shields.io/github/forks/anshverma1975/web-quark?style=for-the-badge&color=38bdf8&logo=gitfork&logoColor=white" alt="Forks"/>
-</a>
-<a href="https://github.com/anshverma1975/web-quark/issues">
-  <img src="https://img.shields.io/github/issues/anshverma1975/web-quark?style=for-the-badge&color=f87171&logo=gitbook&logoColor=white" alt="Issues"/>
-</a>
-<a href="https://github.com/anshverma1975/web-quark/pulls">
-  <img src="https://img.shields.io/github/issues-pr/anshverma1975/web-quark?style=for-the-badge&color=a78bfa&logo=git-pull-request&logoColor=white" alt="Pull Requests"/>
-</a>
+
 <a href="LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-22c55e?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="License"/>
 </a>
 <br/>
-<a href="https://github.com/anshverma1975/web-quark/actions">
-  <img src="https://img.shields.io/github/actions/workflow/status/anshverma1975/web-quark/ci.yml?branch=main&style=for-the-badge&logo=vite&logoColor=white&label=CI" alt="CI Status"/>
-</a>
 <a href="https://www.typescriptlang.org/">
   <img src="https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
 </a>
@@ -414,15 +400,13 @@ If you find this project helpful, please give it a ⭐ on GitHub! It helps other
 
 <div align="center">
 
-<a href="https://ansh-space.vercel.app" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:5px;padding:6px 11px;border-radius:6px;border:1px solid #1e293b;background:rgba(10,10,18,.95);font-family:ui-monospace,'Cascadia Code',Consolas,monospace;font-size:11.5px;text-decoration:none;color:#64748b;margin-top:1.5rem">
-  <span style="color:#a78bfa;font-weight:600">$</span>
-  <span>made with</span>
-  <svg width="11" height="11" viewBox="0 0 24 24" fill="#f43f5e" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.51 4.04 3 5.5l7 7Z"/></svg>
-  <span>by</span>
-  <span style="font-weight:800;color:#ec4899;text-shadow:0 0 5px #ec4899,0 0 8px #ec4899,0 0 16px #ec4899,0 0 32px #db2777;letter-spacing:1px">ANSH</span>
-</a>
+**Made with ❤️ by [Ansh Verma](https://github.com/anshverma1975)**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anshverma1975)
 
 <br/>
+
+<img src="https://api.visitorbadge.io/api/VisitorHit?user=anshverma1975&repo=web-quark&label=REPO%20VIEWS&countColor=7c3aed&labelColor=1e1b4b" alt="Repo Views" />
 
 > *"Write beautifully. Preview instantly. Export effortlessly."*
 
