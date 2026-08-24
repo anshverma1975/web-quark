@@ -7,6 +7,7 @@ import {
   FileText, Files, Play, Pause, Download, Copy, Check,
   ChevronLeft, ChevronRight, PanelLeft, PanelRight, Github, Sparkles,
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const DOCTYPES = [
   { id: 'plain',  label: 'plain'  },
@@ -251,6 +252,7 @@ export default function App() {
           {Object.keys(compiled).length ? 'compiled' : 'idle'}
         </span>
       </footer>
+      <Analytics />
     </div>
   );
 }
