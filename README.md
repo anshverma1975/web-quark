@@ -1,35 +1,43 @@
 # Quarkdown Web
 
-A browser-based editor and preview workspace for writing Quarkdown documents.
+A browser-based editor and preview workspace for writing Quarkdown documents, powered by Vite with live LaTeX rendering via KaTeX.
+
+## Features
+
+- **Live Preview** — edit Quarkdown source on the left, see rendered output instantly on the right
+- **Multiple Doctypes** — plain, paged, slides, and docs modes
+- **LaTeX Math** — inline `$...$` and display `$$...$$` rendering powered by KaTeX
+- **Custom Functions** — define and call reusable Quarkdown functions
+- **Export** — copy HTML, download as `.html`, or print to PDF
+- **Document Management** — sidebar with create, rename, and delete support
 
 ## Development
 
 From the project root:
 
-```powershell
+```bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
 
-The app runs at [http://localhost:3000](http://localhost:3000).
+The app runs at [http://localhost:4000](http://localhost:4000).
 
 ## Production Build
 
-```powershell
+```bash
 cd frontend
 npm run build
 ```
 
-The production files are generated in `frontend/build`.
+The production files are generated in `frontend/dist`.
 
 ## Deploying to Vercel
 
 When importing this repository into Vercel, set the **Root Directory** to `frontend`.
-The default Create React App settings work:
 
 - Build command: `npm run build`
-- Output directory: `build`
+- Output directory: `dist`
 - Install command: `npm install`
 
 ## Attribution
