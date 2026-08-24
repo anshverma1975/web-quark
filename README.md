@@ -409,7 +409,7 @@ If you find this project helpful, please give it a ⭐ on GitHub! It helps other
 
 <div align="center">
 
-![Star History Chart](https://api.star-history.com/svg?repos=anshverma1975/web-quark&type=Date)
+<img src="https://img.shields.io/github/stars/anshverma1975/web-quark?style=social&label=Stars&cache_seconds=3600" alt="GitHub Stars" />
 
 <br/>
 
