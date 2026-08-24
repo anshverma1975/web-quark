@@ -44,12 +44,7 @@
 <br/>
 
 <!-- Animated Divider -->
-<div align="center">
-
-![Divider](https://raw.githubusercontent.com/anshverma1975/web-quark/main/assets/divider-animated.svg)
-<img src="https://user-images.githubusercontent.com/0/separator.svg" width="0" height="0" onerror="this.parentElement.innerHTML='<hr style=&quot;border: none; height: 2px; background: linear-gradient(90deg, transparent, #a78bfa, #60a5fa, #34d399, transparent); width: 80%; margin: 2rem auto;&quot; >'"/>
-
-</div>
+<p align="center"><img src="https://raw.githubusercontent.com/anshverma1975/web-quark/main/assets/divider.svg" alt="divider" width="400" onerror="this.style.display='none'"/></p>
 
 <br/>
 
