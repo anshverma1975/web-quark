@@ -425,6 +425,8 @@ If you find this project helpful, please give it a ⭐ on GitHub! It helps other
 
 <br/>
 
+<img src="https://komarev.com/ghpvc/?username=anshverma1975&repo=web-quark&label=REPO%20VIEWS&color=7c3aed&style=for-the-badge" alt="Profile Views" />
+
 > *"Write beautifully. Preview instantly. Export effortlessly."*
 
 ---
