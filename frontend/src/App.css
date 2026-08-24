@@ -537,6 +537,54 @@ body {
 .qd-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
 .qd-dot.ok { background: var(--qd-accent); box-shadow: 0 0 8px rgba(167,195,182,0.4); }
 
+/* Credit button */
+.qd-credit-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 4px 10px; border-radius: 6px;
+  border: 1px solid #1e293b;
+  background: rgba(10,10,18,.95);
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-size: 11px; text-decoration: none; cursor: pointer;
+  transition: border-color .25s, box-shadow .25s, transform .25s;
+}
+.qd-credit-prompt { color: #a78bfa; font-weight: 600; }
+.qd-credit-text { color: #64748b; }
+.qd-credit-heart { width: 11px; height: 11px; fill: #f43f5e; }
+.qd-credit-name {
+  font-weight: 800;
+  color: #ec4899;
+  text-shadow: 0 0 5px #ec4899, 0 0 8px #ec4899, 0 0 16px #ec4899, 0 0 32px #db2777;
+  animation: neonFlicker 4s infinite;
+  letter-spacing: 1px;
+}
+@keyframes neonFlicker {
+  0%    { opacity: 1; text-shadow: 0 0 5px #ec4899, 0 0 8px #ec4899, 0 0 16px #ec4899, 0 0 32px #db2777; }
+  2%    { opacity: .4; text-shadow: none; }
+  4%    { opacity: 1; text-shadow: 0 0 5px #ec4899, 0 0 8px #ec4899, 0 0 16px #ec4899, 0 0 32px #db2777; }
+  8%    { opacity: 1; }
+  9%    { opacity: .15; text-shadow: none; }
+  11%   { opacity: 1; text-shadow: 0 0 5px #ec4899, 0 0 8px #ec4899, 0 0 16px #ec4899, 0 0 32px #db2777; }
+  40%   { opacity: 1; }
+  41%   { opacity: .3; text-shadow: none; }
+  43%   { opacity: 1; text-shadow: 0 0 5px #ec4899, 0 0 8px #ec4899, 0 0 16px #ec4899, 0 0 32px #db2777; }
+  57%   { opacity: .2; text-shadow: none; }
+  58%   { opacity: 1; text-shadow: 0 0 5px #ec4899, 0 0 8px #ec4899, 0 0 16px #ec4899, 0 0 32px #db2777; }
+  71%   { opacity: .45; text-shadow: none; }
+  72.5% { opacity: 1; text-shadow: 0 0 5px #ec4899, 0 0 8px #ec4899, 0 0 16px #ec4899, 0 0 32px #db2777; }
+  86%   { opacity: .1; text-shadow: none; }
+  88%   { opacity: 1; text-shadow: 0 0 5px #ec4899, 0 0 8px #ec4899, 0 0 16px #ec4899, 0 0 32px #db2777; }
+  93%   { opacity: .35; text-shadow: none; }
+  94%   { opacity: 1; text-shadow: 0 0 5px #ec4899, 0 0 8px #ec4899, 0 0 16px #ec4899, 0 0 32px #db2777; }
+  100%  { opacity: 1; text-shadow: 0 0 5px #ec4899, 0 0 8px #ec4899, 0 0 16px #ec4899, 0 0 32px #db2777; }
+}
+.qd-credit-btn:hover {
+  border-color: rgba(236,72,153,.5);
+  box-shadow: 0 0 14px rgba(236,72,153,.25), 0 2px 10px rgba(0,0,0,.3);
+  transform: translateY(-1px);
+}
+.qd-credit-btn:hover .qd-credit-text { color: #94a3b8; }
+.qd-credit-btn:hover .qd-credit-heart { filter: drop-shadow(0 0 5px rgba(244,63,94,.5)); }
+
 /* Scrollbars */
 *::-webkit-scrollbar { width: 10px; height: 10px; }
 *::-webkit-scrollbar-track { background: transparent; }

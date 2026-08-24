@@ -236,7 +236,13 @@ export default function App() {
       </div>
 
       <footer className="qd-statusbar">
-        <span>Quarkdown Web — live in-browser interpreter</span>
+        <a className="qd-credit-btn" href="https://ansh-space.vercel.app" target="_blank" rel="noopener noreferrer">
+          <span className="qd-credit-prompt">$</span>
+          <span className="qd-credit-text">made with</span>
+          <svg className="qd-credit-heart" viewBox="0 0 24 24" fill="#f43f5e" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.51 4.04 3 5.5l7 7Z"/></svg>
+          <span className="qd-credit-text">by</span>
+          <span className="qd-credit-name">ANSH</span>
+        </a>
         <span className="qd-status-right">
           <span className="qd-dot ok" /> ready
           <span className="qd-sep">|</span>
